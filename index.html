@@ -1,11 +1,30 @@
 <!DOCTYPE html>
 <html>
 <head>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-136616041-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-136616041-1');
+</script>
+
 <title>XuesenCui</title>
 
 <meta charset="UTF-8">
 <p class="warning large">
     <span> 🐟 🐟 🐟 UNDER CONSTRUCTION 🐟 🐟 🐟 </span></p>
+
+    <div class="video-container">
+        <div class="video">
+            <div>
+                <iframe src="https://www.youtube.com/embed/DNBZbn29KUk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
 
 <style>
 body, html{
@@ -15,7 +34,7 @@ body, html{
 .large{
     font-family: usual, sans-serif;
     font-weight: bold;
-    font-size: 20.0em;
+    font-size: 15.0em;
     color:red;
 }
 
@@ -24,9 +43,42 @@ body, html{
     padding-left: 100%;
     animation: warning 8s linear infinite;
     position:absolute;
-    top:25px;
+    top:5px;
     white-space: pre;
 }
+.video-container{
+    width:70%;
+    margin:0 auto;
+    padding:20px 0;
+    text-align:center;
+    height:auto;
+}
+
+.video{
+    width:100%;
+    display:inline-block;
+}
+
+.video div {
+    width:100%;
+    height:0;
+    padding-bottom:56.25%;
+    position:relative;
+    display:inline-block;
+    box-sizing:border-box;
+
+}
+.video iframe {
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+}
+ .video-text{
+     width:50%;
+     margin:0 auto;
+ }
 
 @keyframes warning{
     10% {
