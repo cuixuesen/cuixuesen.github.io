@@ -1,17 +1,23 @@
-
-body {
-      margin: 70px auto;
-      width: 85%;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-nav ul, footer ul {
-      font-family:'Helvetica', 'Arial', 'Sans-Serif';
+body {
+      margin: 80px auto;
+      width: 85%;
+      background-color: #204040;
+}
+
+nav ul{
+      font-family:'Helvetica', Arial;
       padding: 0px;
       list-style: none;
       font-weight: bold;
 }
 
-nav ul li, footer ul li {
+nav ul li {
       display: inline;
       margin-right: 30px;
 }
@@ -40,9 +46,11 @@ a:hover {
       height:auto;
 }
 .content_words{
-      font-family: usual;
+      font-family:'Helvetica', Arial;
       font-size: 1.0em;
       color:#999;
+      line-height:23px;
+      font-weight: lighter;
 }
 
 .warning span{
@@ -64,7 +72,7 @@ a:hover {
 }
 
 .video-container{
-      width:95%;
+      width:69%;
       margin:0 auto;
       padding:20px 0;
       text-align:center;
