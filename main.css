@@ -27,7 +27,7 @@ nav ul li {
 
 a {
       text-decoration: none;
-      color: #999;
+      color: white;
 }
 
 a:hover {
@@ -38,7 +38,7 @@ a:hover {
       font-family: usual, sans-serif;
       font-weight: bold;
       font-size: 2.8em;
-      color:#999;
+      color:white;
 }
 
 .content-container{
@@ -51,9 +51,9 @@ a:hover {
 .content_words{
       font-family:'Helvetica', Arial;
       font-size: 1.0em;
-      color:#999;
+      color:white;
       line-height:23px;
-      font-weight: lighter;
+      font-weight: bold;
 }
 
 .warning span{
