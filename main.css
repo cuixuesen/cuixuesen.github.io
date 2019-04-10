@@ -5,8 +5,8 @@
 }
 
 body {
-       background:url('background.gif');
-
+       background:url('background.gif') fixed;
+       background-size: cover;
        height:100%;
        margin: 80px auto;
        width: 79%;
